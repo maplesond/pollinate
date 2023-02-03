@@ -1,7 +1,9 @@
 Pollinate Tech Assignment
 =========================
 
-The objective of this exercise is to design, deploy and provision a highly available service.
+The objective of this exercise is to design, deploy and provision a highly available service.  A high-level architectural diagram of the intended deployment will look like this:
+
+![architecture](architecture.png)
 
 Assignment
 ----------
