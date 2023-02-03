@@ -1,0 +1,12 @@
+apiVersion: v2
+name: pollinate
+description: A Helm chart for deploying my pollinate app and DB
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+
+dependencies:
+- name: postgresql
+  version: "12.1.13"
+  repository: "https://charts.bitnami.com/bitnami"
+  condition: postgresql.enabled   # Only use this child chart if requested (by default it will be used)
